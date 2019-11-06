@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6454d-5316-41ca-8ed6-c0fc826b4cb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bananamama.html" beforeDir="false" afterPath="$PROJECT_DIR$/bananamama.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="470" column="22" lean-forward="true" selection-start-line="470" selection-start-column="22" selection-end-line="470" selection-end-column="22" />
+            <state relative-caret-position="312">
+              <caret line="671" column="27" selection-start-line="671" selection-start-column="27" selection-end-line="671" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -75,8 +74,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="228" />
-    <option name="y" value="87" />
+    <option name="x" value="99" />
+    <option name="y" value="222" />
     <option name="width" value="1371" />
     <option name="height" value="908" />
   </component>
@@ -135,12 +134,12 @@
       <workItem from="1572500234803" duration="2734000" />
       <workItem from="1572932655780" duration="7257000" />
       <workItem from="1572962566040" duration="403000" />
-      <workItem from="1573020058500" duration="12719000" />
+      <workItem from="1573020058500" duration="13577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23113000" />
+    <option name="totallyTimeSpent" value="23971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -152,7 +151,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="228" y="87" width="1371" height="908" extended-state="0" />
+    <frame x="99" y="222" width="1371" height="908" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119968" />
@@ -199,8 +198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="470" column="22" lean-forward="true" selection-start-line="470" selection-start-column="22" selection-end-line="470" selection-end-column="22" />
+        <state relative-caret-position="312">
+          <caret line="671" column="27" selection-start-line="671" selection-start-column="27" selection-end-line="671" selection-end-column="27" />
         </state>
       </provider>
     </entry>

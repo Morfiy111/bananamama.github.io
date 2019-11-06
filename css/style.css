@@ -44,12 +44,9 @@ a:hover {
 }
 .free-service-item {
     display: flex;
-    align-items: center;
     margin-bottom: 10px;
     font-size: 18px;
 }
-
-
 .free-service-item i {
     color: #ff6d0a;
     font-size: 30px;
@@ -591,13 +588,6 @@ button.close {
     margin-bottom: 40px;
 }
 @media (max-width: 991px) {
-    .gamburger-block {
-        padding-left: 40px;
-    }
-    .navbar-toggle {
-        margin-top: 5px;
-        margin-bottom: 4px;
-    }
     .navbar-toggle .icon-bar {
         width: 30px;
     }
@@ -605,133 +595,18 @@ button.close {
         width: 18px;
     }
     .logo-header img {
-        width: 120px;
-    }
-    .logo-header {
-        padding-left: 32px;
-    }
-    .header-icons a {
-        margin-left: 25px;
-    }
-    .header-icons {
-        padding-right: 53px;
+        width: 222px;
     }
     nav {
         text-align: inherit;
-    }
-    .flex-follow-block .shares-cart-block-text {
-        padding-left: 0;
-    }
-    .flex-follow-block .shares-cart-block-text h3 {
-        margin-bottom: 20px;
     }
     .topmenu > li > a {
         font-size: 12px;
         padding: 18px 30px;
     }
-    .owl-carousel-item-block {
-        text-align: center;
-    }
-    .owl-carousel .owl-item img {
-        width: auto;
-        height: 317px;
-        object-fit: cover;
-        max-width: 100%;
-    }
-    .owl-prev {
-        left: 2.2%;
-    }
-    .owl-next {
-        right: 2.2%;
-    }
-    .owl-absolute-block h1 {
-        font-size: 44px;
-        text-align: left;
-        margin-bottom: 54px;
-    }
-    .owl-absolute-block {
-        top: 24%;
-        left: 7%;
-        text-align: left;
-    }
-    .owl-absolute-block h1 span {
-        font-size: 29px;
-    }
-    .owl-absolute-block p {
-        display: none;
-    }
-    .main-button {
-        padding: 13px 20px;
-    }
-    .owl-carousel {
-        margin-bottom: 43px;
-    }
-    .main-title-page h2 {
-        font-size: 21px;
-    }
-    .main-title-page {
-        margin-bottom: 21px;
-    }
-    .category-links-flex {
-        padding: 0 47px;
-    }
-    .category-links-text {
-        width: 180px;
-    }
-    .category-links-text a {
-        font-size: 12px;
-    }
-    .category-links-flex {
-        margin-bottom: 38px;
-    }
     .category-item-block {
         width: 24%;
         overflow: hidden;
-        height: 156px;
-    }
-    .category-text-block {
-        width: 100%;
-        padding: 0;
-        font-size: 12px;
-    }
-    .flex-brands-block {
-        padding: 0 47px;
-        margin-top: 0px;
-        margin-bottom: 65px;
-    }
-    .big-brand-column:first-child img {
-        width: 178px;
-    }
-    .main-brand-column .button-brands {
-        margin-bottom: 8px;
-        font-size: 12px;
-    }
-    .shares-cart-block-text {
-        padding-left: 46px;
-    }
-    .shares-cart-block-text h3 {
-        font-size: 27px;
-    }
-    .shares-image-block img {
-        width: 317px;
-    }
-    .big-pencent-shares {
-        margin-bottom: 26px;
-    }
-    .flex-sale-cart-block {
-        padding: 10px 0;
-    }
-    .big-pencent-shares {
-        margin-bottom: 22px;
-    }
-    .main-button-light {
-        margin-top: 30px;
-    }
-    .advantages-description {
-        display: none;
-    }
-    .main-advantages-block .category-item-block {
-        height: 372px;
     }
     .main-advantages-block {
         margin-top: 15px;
@@ -751,73 +626,12 @@ button.close {
         height: 295px;
         overflow: hidden;
     }
-    .advantages-description-mobile {
-        display: block;
-        display: flex;
-        flex-direction: column;
-        padding: 0 47px;
-    }
     .main-advantages-block {
         margin-bottom: 37px;
-    }
-    .advantages-description-mobile p {
-        text-align: center;
-        font-size: 17px;
     }
     .advantages-icon-title {
         text-align: center;
         font-size: 15px;
-    }
-    .flex-follow-block .shares-cart-block-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 61%;
-        align-items: center;
-    }
-    .flex-follow-block .shares-cart-block-text p {
-        line-height: 1.3;
-    }
-    .flex-follow-block {
-        display: flex;
-        justify-content: center;
-    }
-    .follow-block-flex {
-        justify-content: center;
-        width: 81%;
-    }
-    .follow-block-flex input {
-        width: 100%;
-        margin-top: 20px;
-    }
-    .follow-block-flex {
-        margin-top: 0;
-    }
-    .close-header-icon.show {
-        top: 15px;
-    }
-    .grey-line-page-flower {
-        margin-top: 46px;
-        margin-bottom: 26px;
-    }
-    .flower-left-absolute img {
-        height: 375px;
-    }
-    .flower-right-absolute {
-        position: absolute;
-        right: 0;
-        bottom: -48px;
-    }
-    .flower-right-absolute img {
-        height: 375px;
-    }
-    .main-blog-flex {
-        padding: 0 47px;
-        margin-bottom: 7px;
-    }
-    .flex-instagram {
-        padding: 0 47px;
     }
     .button-center {
         margin-bottom: 42px;
@@ -826,73 +640,6 @@ button.close {
         text-align: center;
         padding-top: 15px;
         margin-bottom: 6px;
-    }
-    .footer-copyright {
-        text-align: center;
-        font-size: 12px;
-        margin-bottom: 24px;
-    }
-    .mobile-footer-links-flex {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 47px;
-    }
-    .footer-grey {
-        margin-top: 93px;
-    }
-    .footer-logo img {
-        width: 85px;
-    }
-    .footer-flex-item:last-child {
-        width: 27%;
-    }
-    .footer-flex-item:first-child {
-        padding-left: 8px;
-    }
-    footer-flex-item:nth-child(2) {
-        padding-left: 45px;
-    }
-    .footer-flex-item-link {
-        margin-bottom: 11px;
-    }
-    .last-links-footer {
-        text-align: left;
-    }
-    .footer-flex-item-width {
-        width: auto;
-    }
-    .news-border-bottom-mobile {
-        border-bottom: 1px dotted #000;
-        margin-bottom: 11px;
-    }
-    .footer-mobile .footer-flex-item-width {
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-end;
-    }
-    .footer-flex-item {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .tablet-social-footer {
-        padding: 0 47px;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 30px;
-    }
-    .tablet-padding-footer {
-        padding-top: 50px;
-    }
-    .it-tehnology {
-        display: flex;
-    }
-    .footer-flex-item:nth-child(2) {
-        padding-left: 8px;
-    }
-    .tablet-social-footer .modal-social-flex a {
-        margin-right: 25px;
-        font-size: 27px;
     }
     #burger-content {
         width: 546px;
@@ -908,13 +655,21 @@ button.close {
     .modal-center-item {
         padding-left: 40px;
     }
-    .burger-city-link {
-        margin-top: 73px;
-        font-size: 16px;
+    .header-desktop-block a {
+        font-size: 14px;
+        margin: 10px 0;
     }
-    .burger-city-link i {
-        margin-right: 10px;
-        font-size: 20px;
+    .main-menu-block .topmenu {
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-category-items {
+        flex-wrap: wrap;
+    }
+    .category-item-block {
+        width: 48%;
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 767px) {
