@@ -221,7 +221,7 @@ nav ul {
     text-align: center;
     margin-bottom: 48px;
 }
-.main-title-page h2 {
+.main-title-page h2, .main-title-page h1 {
     display: inline-block;
     vertical-align: middle;
     margin-top: 10px;
@@ -243,6 +243,9 @@ nav ul {
 .main-title-page:after {
     margin-right: -100%;
     right: -14px;
+}
+.main-description {
+    margin-bottom: 40px;
 }
 .owl-carousel {
     margin-bottom: 60px;
