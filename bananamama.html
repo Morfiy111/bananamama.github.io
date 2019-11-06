@@ -40,7 +40,7 @@
                 <a href="/"><img src="images/logo.png" alt=""></a>
             </div>
             <div class="header-icons">
-                <a href="#" class="main-button main-button-light">ОСТАВИТЬ ЗАЯВКУ</a>
+                <a href="#" class="main-button main-button-light" data-target="#modal-send" data-toggle="modal">ОСТАВИТЬ ЗАЯВКУ</a>
             </div>
         </div>
     </div>
@@ -197,29 +197,26 @@
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <button type="button">Написать</button>
                     </div>
-                    <div class="burger-mobile-link-item">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <button type="button">Позвонить</button>
-                    </div>
-                    <div class="burger-mobile-link-item">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <button type="button">Войти</button>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="modal fade" id="modal-burger" tabindex="-1" role="dialog" aria-labelledby="modal-main" aria-hidden="true" style="display: none;">
+<div class="modal fade" id="modal-send" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
-                <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                <span aria-hidden="true">×</span>
             </button>
             <div class="modal-body">
-                <div class="modal-inputs">
-                    <input type="text" placeholder="Введите название города">
-                    <button class="button-modal-city">ВЫБРАТЬ</button>
+                <div class="owl-feedback-form">
+                    <h3>Бронируйте место прямо сейчас!</h3>
+                    <p>Мы обязательно свяжемся с вами!</p>
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="text" placeholder="Телефон">
+                    <input type="text" placeholder="email">
+                    <textarea rows="5" placeholder="Напишите сообщение"></textarea>
+                    <a href="#">Отправить заявку</a>
                 </div>
             </div>
         </div>
@@ -242,7 +239,7 @@
     </div>
     <p class="main-description">Приглашаем всех на прогулки на джипах по самым живописным местам Анапы и её окресностей. Для ценителей активного отдыха мы предлагаем путешествия на квадроциклах, дайвинг, аренду яхт, морские прогулки и полеты на параплане. Мы предложим интересные и захватывающие маршруты на любой вкус, а наши цены вас приятно удивят! Бронируйте места уже сейчас, чтобы ваш отдых запомнился вам на долгие годы!</p>
     <div class="button-center fadeInUp wow animated">
-        <a href="#" class="main-button main-button-light">ЗАБРОНИРОВАТЬ МЕСТА</a>
+        <a href="#" class="main-button main-button-light" data-target="#modal-send" data-toggle="modal">ЗАБРОНИРОВАТЬ МЕСТА</a>
     </div>
     <div class="main-title-page fadeInUp wow">
         <h2>УСЛУГИ</h2>
@@ -283,13 +280,16 @@
         </div>
     </div>
     <div class="button-center fadeInUp wow animated">
-        <a href="#" class="main-button main-button-light">ОСТАВИТЬ ЗАЯВКУ</a>
+        <a href="#" class="main-button main-button-light" data-target="#modal-send" data-toggle="modal">ОСТАВИТЬ ЗАЯВКУ</a>
     </div>
     <div class="main-title-page fadeInUp wow">
         <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
     </div>
     <div class="free-service-item">
-        <i class="fa fa-check-circle-o" aria-hidden="true"></i> У нас самые живописные маршруты и дружелюбные водители.
+        <i class="fa fa-check-circle-o" aria-hidden="true"></i> У нас самые живописные маршруты, дружелюбные водители и лучшие экскурсоводы.
+    </div>
+    <div class="free-service-item">
+        <i class="fa fa-check-circle-o" aria-hidden="true"></i> Индивидуальный подход. Мы учитываем пожелания наших гостей.
     </div>
     <div class="free-service-item">
         <i class="fa fa-check-circle-o" aria-hidden="true"></i> Мы покажем вам самые незабываемые места Анапы и её окресностей - природные красоты и обзорные площадки на курортный город.
@@ -301,7 +301,13 @@
         <i class="fa fa-check-circle-o" aria-hidden="true"></i> Посещаем все достопримечательности Анапы (Лысая гора, Ласточкины гнезда, Святой поклонный крест, источник и храм Святой Варвары, древний замок, радиолокационные шары, выставку старинных русских колоколов и единственное озеро в России, где 33 кипариса, занесенных в Красную книгу. Такие деревья растут прямо из воды, такие деревья растут в 2-х местах на всей планете.
     </div>
     <div class="free-service-item">
-        <i class="fa fa-check-circle-o" aria-hidden="true"></i> Вечернее барбекю, которое полностью организовывает наша фирма(стол,стулья,мангал,мясо, все за наш счет)с профессиональной музыкой.
+        <i class="fa fa-check-circle-o" aria-hidden="true"></i> Бесплатный фото и видео отчет с экскурсий.
+    </div>
+    <div class="free-service-item">
+        <i class="fa fa-check-circle-o" aria-hidden="true"></i> Приятные бонусы для наших туристов.
+    </div>
+    <div class="free-service-item">
+        <i class="fa fa-check-circle-o" aria-hidden="true"></i> Вечернее барбекю, которое полностью организовывает наша фирма (стол,стулья,мангал,мясо, все за наш счет)с профессиональной музыкой.
     </div>
     <div class="main-title-page fadeInUp wow">
         <h2>ВИДЕО</h2>
@@ -393,7 +399,6 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/owl.carousel.js"></script>

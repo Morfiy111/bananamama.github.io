@@ -309,30 +309,6 @@ nav ul {
     width: 100%;
     margin-bottom: 10px;
 }
-.main-brand-column {
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.main-brand-column a {
-    display: block;
-}
-.big-brand-column:first-child {
-    margin-left: 0;
-}
-.big-brand-column:first-child img {
-    width: 323px;
-}
-.main-brand-column .button-brands:hover {
-    text-decoration: none;
-}
-.flex-brands-block:hover img {
-    filter: grayscale(.8);
-}
-.flex-brands-block img:hover {
-    filter: grayscale(0%);
-}
 .shares-cart-block-text h3 {
     font-size: 28px;
     margin-top: 22px;
