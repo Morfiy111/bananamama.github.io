@@ -321,24 +321,9 @@ nav ul {
 .category-text-block {
     position: absolute;
     bottom: 0;
-    padding: 20px;
+    padding: 5px 20px 0 0;
     z-index: 1;
     background-color: #fff;
-}
-.flex-brands-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 120px;
-    margin-top: 64px;
-}
-.main-brand-column .button-brands {
-    color: #000;
-    background-color: #f9f9f9;
-    display: block;
-    text-align: center;
-    padding: 30px;
-    margin-bottom: 30px;
 }
 .main-brand-column img {
     width: 100%;
@@ -368,29 +353,9 @@ nav ul {
 .flex-brands-block img:hover {
     filter: grayscale(0%);
 }
-.grey-line-page {
-    background-color: #fafafa;
-    margin-bottom: 60px;
-}
-.flex-sale-cart-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 0;
-}
 .shares-cart-block-text h3 {
     font-size: 28px;
     margin-top: 22px;
-}
-.shares-cart-block-text {
-    font-size: 17px;
-}
-.shares-cart-block-text {
-    padding-left: 78px;
-    line-height: 1;
-}
-.shares-image-block {
-    margin: -80px 0px;
 }
 .main-button-light::after, .main-button-light::before {
     background-color: #fff;
@@ -406,44 +371,6 @@ nav ul {
 }
 .shares-image-block img {
     width: 444px;
-}
-.advantages-icon-flex {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 36px;
-}
-.main-advantages-block {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 142px;
-    margin-top: 78px;
-}
-.advantages-min-img {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.big-text-advantages {
-    font-size: 40px;
-    padding: 20px 48px;
-}
-.min-advantages-item {
-    width: 261px;
-}
-.main-advantages-block .category-item-block {
-    position: relative;
-    width: 79%;
-}
-.advantages-description {
-    width: 64%;
-    padding-top: 68px;
-}
-.main-advantages-block .category-links-text {
-    left: 0;
-    font-size: 12px;
-}
-.main-advantages-block .category-links-text:after {
-    width: 34%;
 }
 .advantages-description > p {
     width: 85%;
@@ -468,74 +395,11 @@ nav ul {
 .advantages-description p {
     color: #8f8f8f;
 }
-.follow-block-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-}
-.grey-line-page-flower {
-    position: relative;
-    margin-bottom: 100px;
-}
-.follow-block-flex .main-button-light {
-    margin-top: 0;
-}
-.follow-block-flex input {
-    border: none;
-    padding: 20px 30px;
-    color: #000;
-    width: 60%;
-}
-.flex-follow-block .shares-image-block img {
-    width: 600px;
-}
-.follow-block-flex input:focus {
-    outline: none;
-}
-.follow-block-flex input::placeholder {
-    color:#000;
-}
-.flower-left-absolute {
-    position: absolute;
-    left: 0;
-}
 .flower-left-absolute img {
     height: 327px;
 }
 .flex-follow-block {
     margin-bottom: 57px;
-}
-.main-blog-item-title a {
-    color: #000;
-    font-weight: bold;
-    font-size: 15px;
-}
-.main-blog-item-title a:hover {
-    color: #de0588;
-    text-decoration: none;
-}
-.main-blog-item-date {
-    color: #8f8f8f;
-    margin-bottom: 10px;
-}
-.main-blog-item-link a {
-    text-decoration: underline;
-    color: #000;
-}
-.main-blog-flex {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
-.blog-main-item {
-    width: 32%;
-}
-.blog-main-item img {
-    width: 100%;
-}
-.main-blog-item-title {
-    margin: 10px 0;
 }
 .button-center {
     text-align: center;
@@ -551,6 +415,7 @@ nav ul {
 .masonry-instagram {
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 .instagram-item img {
     width: 100%;
@@ -560,6 +425,10 @@ nav ul {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 10px;
+    width: 32%;
+}
+.first-instagram-item {
+    width: 23%;
 }
 .footer-grey {
     background-color: #fafafa;
