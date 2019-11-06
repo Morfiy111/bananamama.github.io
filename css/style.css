@@ -487,7 +487,7 @@ nav ul {
     margin-right: 15px;
 }
 .modal-body {
-    padding: 40px;
+    padding: 20px;
 }
 .modal-inputs {
     display: flex;
@@ -710,7 +710,6 @@ button.close {
     .mobile-category-items {
         flex-wrap: wrap;
         margin: 0;
-        padding: 0 25px;
     }
     .mobile-category-items .category-item-block {
         width: 47%;
@@ -802,6 +801,8 @@ button.close {
     .cart_content .continue {
         top: -2px;
         right: 8px;
+        font-weight: bold;
+        font-size: 18px;
     }
     .cart_content .continue img {
         width: 22px;
