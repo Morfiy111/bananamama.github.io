@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
@@ -22,12 +23,16 @@
 </head>
 <body>
 <header class="header-page-top">
-    <div class="gamburger-block">
+    <div class="gamburger-block hidden-lg hidden-md hidden-sm">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false" id="burger">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
+    </div>
+    <div class="header-desktop-block hidden-xs">
+        <a href="tel:+79883190857">8 988 319 08 57</a>
+        <a href="mailto:karataeva.olga2015@yandex.ru">karataeva.olga2015@yandex.ru</a>
     </div>
     <div class="logo-header">
         <a href="/"><img src="images/logo.png" alt=""></a>
@@ -56,7 +61,7 @@
         </ul>
     </nav>
 </div>
-<div id="burger-content">
+<div id="burger-content" class="hidden-lg hidden-md hidden-sm">
     <div class="cart_content">
         <div class="continue">
             <i class="fa fa-times" aria-hidden="true"></i>
@@ -266,19 +271,19 @@
     </div>
     <div class="category-links-flex mobile-category-items fadeInUp wow">
         <div class="category-item-block">
-            <img src="images/route1.jpg" alt="">
+            <a href="#"><img src="images/route1.jpg" alt=""></a>
             <div class="category-text-block"><a href="#">МЕСТНАЯ КОРСИКА</a></div>
         </div>
         <div class="category-item-block">
-            <img src="images/route2.jpg" alt="">
+            <a href="#"><img src="images/route2.jpg" alt=""></a>
             <div class="category-text-block"><a href="#">КИПАРИСОВОЕ ОЗЕРО</a></div>
         </div>
         <div class="category-item-block">
-            <img src="images/route3.jpg" alt="">
+            <a href="#"><img src="images/route3.jpg" alt=""></a>
             <div class="category-text-block"><a href="#">ЛАСТОЧКИНЫ ГНЁЗДА, ЛЫСАЯ ГОРА</a></div>
         </div>
         <div class="category-item-block">
-            <img src="images/route4.jpg" alt="">
+            <a href="#"><img src="images/route4.jpg" alt=""></a>
             <div class="category-text-block"><a href="#">ВЕЧЕРНИЕ ПОКАТУШКИ</a></div>
         </div>
     </div>
@@ -292,9 +297,11 @@
     <div class="main-title-page fadeInUp wow">
         <h2>ВИДЕО</h2>
     </div>
-
+    <div class="youtube-video">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/m-QZE0LctIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <div class="button-center hidden-xs fadeInUp wow">
-        <a href="#" class="main-button main-button-light">ПОДПИСАТЬСЯ</a>
+        <a href="#" class="main-button main-button-light">ПОДПИСАТЬСЯ НА КАНАЛ</a>
     </div>
     <div class="main-title-page fadeInUp wow">
         <h2>ФОТО</h2>
@@ -308,7 +315,7 @@
         <div class="masonry-instagram">
             <div class="instagram-column">
                 <div class="instagram-item">
-                    <a href="#"><img src="images/foto2.jpg" alt=""></a>
+                    <a href="images/foto2.jpg" data-fancybox="gallery"><img src="images/foto2.jpg" alt=""></a>
                 </div>
                 <div class="instagram-item">
                     <a href="#"><img src="images/foto3.jpg" alt=""></a>
@@ -339,9 +346,6 @@
             <div class="footer-flex-item">
                 <div class="footer-logo">
                     <a href="#"><img src="images/logo.png" alt=""></a>
-                </div>
-                <div class="footer-copyright">
-                    Banana Mama, 2019
                 </div>
             </div>
             <div class="footer-flex-item">
@@ -381,6 +385,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/owl.carousel.js"></script>

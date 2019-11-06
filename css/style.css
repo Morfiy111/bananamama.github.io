@@ -8,6 +8,10 @@ a, button {
 a:focus {
     text-decoration: none;
 }
+a:hover {
+    color: #ff6d0a;
+    text-decoration: none;
+}
 .container {
     overflow: hidden;
 }
@@ -454,6 +458,10 @@ nav ul {
 .footer-flex-item a {
     color: #000;
 }
+.footer-flex-item a:hover {
+    text-decoration: none;
+    color: #ff6d0a;
+}
 .footer-flex-item-link {
     margin-bottom: 13px;
 }
@@ -472,7 +480,7 @@ nav ul {
     justify-content: space-between;
 }
 .it-tehnology-text {
-    margin-bottom: 10px;
+    text-align: right;
 }
 .footer-social-flex {
     display: flex;
@@ -566,13 +574,13 @@ button.close {
     color: #a9a9a9;
 }
 #menu-left-acide ul .catalog-left-menu-disk a:hover {
-    color: #de0588;
+    color: #ff6d0a;
 }
 .has-sub .red-block-catalog, .red-block-catalog {
     color: #a9a9a9;
 }
 #menu-left-acide a:hover {
-    color: #de0588;
+    color: #ff6d0a;
     text-decoration: none;
 }
 #menu-left-acide a {
@@ -596,19 +604,7 @@ button.close {
     margin: 30px 0;
 }
 .navbar-toggle:hover .icon-bar {
-    background-color: #de0588;
-}
-.header-icons a .header-icon-hover, .button-search-input .header-icon-hover {
-    display: none;
-}
-.header-icons a .header-icon-normal, .button-search-input .header-icon-normal {
-    display: block;
-}
-.header-icons a:hover .header-icon-normal, .button-search-input:hover .header-icon-normal{
-    display: none;
-}
-.header-icons a:hover .header-icon-hover, .button-search-input:hover .header-icon-hover {
-    display: block;
+    background-color: #ff6d0a;
 }
 #menu-left-acide {
     margin-bottom: 80px;
@@ -621,14 +617,16 @@ button.close {
     margin-right: 15px;
     font-size: 22px;
 }
-.modal-social-flex a:hover {
-    color: #de0588;
+.header-desktop-block a {
+    color: #000;
+    display: block;
+    font-size: 24px;
 }
-.footer-logo {
-    margin-bottom: 20px;
+.header-desktop-block a:hover {
+    color: #ff6d0a;
 }
-.advantages-description-mobile {
-    display: none;
+.youtube-video {
+    margin-bottom: 40px;
 }
 @media (max-width: 991px) {
     .gamburger-block {
