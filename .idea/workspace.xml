@@ -22,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bananamama.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="294" column="17" selection-start-line="294" selection-start-column="17" selection-end-line="294" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="361" column="157" selection-start-line="361" selection-start-column="157" selection-end-line="361" selection-end-column="157" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="402" column="1" selection-start-line="402" selection-start-column="1" selection-end-line="402" selection-end-column="1" />
+            <state relative-caret-position="236">
+              <caret line="478" column="30" selection-start-line="478" selection-start-column="30" selection-end-line="478" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -65,14 +65,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/bananamama.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/bananamama.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="224" />
-    <option name="y" value="121" />
+    <option name="x" value="176" />
+    <option name="y" value="272" />
     <option name="width" value="1371" />
     <option name="height" value="908" />
   </component>
@@ -131,12 +131,12 @@
       <workItem from="1572500234803" duration="2734000" />
       <workItem from="1572932655780" duration="7257000" />
       <workItem from="1572962566040" duration="403000" />
-      <workItem from="1573020058500" duration="6514000" />
+      <workItem from="1573020058500" duration="7834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16908000" />
+    <option name="totallyTimeSpent" value="18228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -148,7 +148,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="121" width="1371" height="908" extended-state="0" />
+    <frame x="176" y="272" width="1371" height="908" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119968" />
@@ -183,21 +183,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="478" column="30" selection-start-line="478" selection-start-column="30" selection-end-line="478" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bananamama.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="294" column="17" selection-start-line="294" selection-start-column="17" selection-end-line="294" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="361" column="157" selection-start-line="361" selection-start-column="157" selection-end-line="361" selection-end-column="157" />
           <folding>
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="402" column="1" selection-start-line="402" selection-start-column="1" selection-end-line="402" selection-end-column="1" />
         </state>
       </provider>
     </entry>
