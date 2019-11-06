@@ -563,6 +563,8 @@ button.close {
 }
 .modal-social-flex {
     display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
 }
 .modal-social-flex a {
     color: #000;
@@ -579,6 +581,9 @@ button.close {
 }
 .youtube-video {
     margin-bottom: 40px;
+}
+.it-tehnology-text a {
+    text-decoration: underline;
 }
 @media (max-width: 991px) {
     .navbar-toggle .icon-bar {
@@ -701,8 +706,6 @@ button.close {
     }
     .category-links-text {
         width: 100%;
-        position: inherit;
-        padding: 0;
     }
     .mobile-category-items {
         flex-wrap: wrap;
@@ -731,9 +734,6 @@ button.close {
         margin-top: 8px;
     }
     .main-advantages-block {
-        padding: 0 25px;
-    }
-    .main-advantages-block {
         align-items: flex-start;
         position: relative;
     }
@@ -745,7 +745,6 @@ button.close {
         position: absolute;
     }
     .flex-instagram {
-        padding: 0 26px;
         margin-bottom: 10px;
     }
     .instagram-item-last {
@@ -776,13 +775,13 @@ button.close {
         color: #000;
     }
     .footer-flex-item-link {
-        font-size: 13px;
+        font-size: 16px;
     }
     .border-footer a {
         color: #000;
     }
     .it-tehnology-text {
-        font-size: 12px;
+        margin-top: 15px;
     }
     .it-tehnology img {
         width: 70px;
@@ -831,5 +830,58 @@ button.close {
     }
     .footer-flex-block {
         flex-wrap: wrap;
+    }
+    .footer-logo {
+        width: auto;
+    }
+    .header-flex-top {
+        padding: 20px 0;
+    }
+    .category-links-flex {
+        margin-bottom: 20px;
+    }
+    .masonry-instagram {
+        flex-wrap: wrap;
+    }
+    .masonry-instagram .instagram-column:last-child {
+        flex-direction: row;
+        width: 100%;
+    }
+    .instagram-column {
+        width: 46%;
+    }
+    .first-instagram-item {
+        width: 51%;
+    }
+    .masonry-instagram .instagram-column:last-child .instagram-item {
+        width: 48%;
+        margin-top: 8px;
+    }
+}
+@media(max-width: 500px) {
+    .category-links-item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .category-links-flex {
+        flex-wrap: wrap;
+    }
+    .mobile-category-items .category-item-block {
+        width: 100%;
+    }
+    .footer-flex-item-link {
+        margin-right: 25px;
+    }
+    .last-links-footer {
+        text-align: left;
+    }
+    .footer-social-flex {
+        justify-content: flex-start;
+    }
+    .it-tehnology-text {
+        text-align: left;
+    }
+    .instagram-column {
+        margin-left: 5px;
     }
 }
