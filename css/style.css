@@ -15,9 +15,6 @@ a:hover {
 .container {
     overflow: hidden;
 }
-.bold-text {
-    font-weight: bold;
-}
 .navbar-toggle .icon-bar {
     width: 24px;
     height: 2px;
@@ -38,10 +35,12 @@ a:hover {
     width: 14px;
 }
 .header-page-top {
+    border-bottom: 1px solid #e9e9e9;
+}
+.header-flex-top {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    border-bottom: 1px solid #e9e9e9;
+    justify-content: space-between;
 }
 .logo-header img {
     width: 222px;
@@ -59,42 +58,6 @@ a:hover {
 }
 .relative-content button:focus {
     outline: none;
-}
-.close-header-icon {
-    display: none;
-}
-.close-header-icon.show {
-    display: block;
-    width: 21px;
-    position: absolute;
-    top: 15px;
-}
-.main-page-search {
-    height: 60px;
-    z-index: 1111;
-    position: relative;
-    width: 100%;
-    border: none;
-    background-color: #fafafa;
-}
-.search-line-input {
-    background-color: #fafafa;
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    opacity: 0;
-    transition: all .2s linear;
-}
-.search-line-input.show {
-    z-index: 1;
-    opacity: 1;
-}
-.main-page-search:focus {
-    outline: none;
-}
-.main-page-search::placeholder {
-    color: #000;
 }
 .gamburger-block, .logo-header {
     width: 33.3%;
