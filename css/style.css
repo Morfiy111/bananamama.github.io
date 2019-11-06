@@ -42,6 +42,19 @@ a:hover {
     align-items: center;
     justify-content: space-between;
 }
+.free-service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.free-service-item i {
+    color: #ff6d0a;
+    font-size: 30px;
+    margin-right: 10px;
+}
 .logo-header img {
     width: 222px;
 }
