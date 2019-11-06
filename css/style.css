@@ -452,7 +452,6 @@ nav ul {
 #burger-content {
     position: fixed;
     z-index: 9;
-    height: 100%;
     width: 520px;
     top: 0;
     left: -900px;
@@ -667,12 +666,6 @@ button.close {
     }
 }
 @media (max-width: 767px) {
-    .navbar-toggle {
-        margin-top: 7px;
-        margin-bottom: 7px;
-        padding-left: 23px;
-        padding-right: 0;
-    }
     .header-page-top {
         position: relative;
     }
@@ -686,56 +679,22 @@ button.close {
         margin-left: 0;
     }
     .logo-header {
-        padding-left: 20px;
+        text-align: right;
     }
-    .logo-header img {
-        width: 87px;
+    .gamburger-block, .logo-header {
+        width: auto;
     }
     .header-page-top {
         justify-content: space-between;
     }
     .gamburger-block {
-        width: auto;
-    }
-    .header-icons {
-        padding-right: 22px;
-    }
-    .header-icons a {
-        margin-left: 15px;
-    }
-    .logo-header {
-        padding-left: 10px;
-    }
-    .mobile-header-icons {
-        padding-right: 10px;
-    }
-    .mobile-header-icons .main-search-icon {
-        margin-left: -15px;
+        width: 50%;
     }
     .main-menu-block {
         display: none;
     }
-    .owl-carousel .owl-item img {
-        height: 340px;
-    }
-    .owl-absolute-block h1 {
-        font-size: 17px;
-        line-height: 1.2;
-    }
-    .owl-absolute-block {
-        width: 256px;
-        position: absolute;
-        top: 44%;
-        left: 13%;
-    }
-    .owl-absolute-block h1 span {
-        font-size: 14px;
-    }
     .main-title-page h2 {
         font-size: 18px;
-    }
-    .owl-carousel {
-        margin-bottom: 22px;
     }
     .category-links-flex {
         padding: 0;
@@ -744,9 +703,6 @@ button.close {
         width: 100%;
         position: inherit;
         padding: 0;
-    }
-    .category-links-flex {
-        margin: 0 -38px 40px -38px;
     }
     .mobile-category-items {
         flex-wrap: wrap;
@@ -771,40 +727,6 @@ button.close {
         padding-top: 8px;
         font-size: 12px;
     }
-    .flex-brands-block {
-        padding: 0 25px;
-    }
-    .big-brand-column:first-child img {
-        width: 147px;
-    }
-    .main-brand-column .button-brands {
-        padding: 3px;
-    }
-    .flex-sale-cart-block {
-        flex-direction: column-reverse;
-    }
-    .shares-image-block {
-        text-align: center;
-        margin: 0;
-    }
-    .flex-brands-block {
-        margin-bottom: 33px;
-    }
-    .shares-image-block img {
-        width: 49%;
-    }
-    .shares-cart-block-text {
-        padding-left: 0;
-        text-align: center;
-    }
-    .shares-cart-block-text h3 {
-        font-size: 19px;
-        margin-top: 0;
-    }
-    .big-pencent-shares {
-        font-size: 34px;
-        margin-bottom: 10px;
-    }
     .main-button-light {
         margin-top: 8px;
     }
@@ -819,78 +741,8 @@ button.close {
         height: auto;
         margin-right: 10px;
     }
-    .advantages-min-img {
-        align-items: flex-start;
-    }
     .main-advantages-block .category-links-text {
         position: absolute;
-    }
-    .advantages-min-img {
-        height: auto;
-    }
-    .min-advantages-item {
-        width: 123px;
-    }
-    .advantages-description-mobile {
-        padding: 0 25px;
-    }
-    .big-text-advantages-mobile {
-        font-size: 21px;
-        margin-bottom: 10px;
-    }
-    .advantages-description-mobile p {
-        text-align: left;
-    }
-    .main-advantages-block {
-        margin-bottom: 15px;
-    }
-    .advantages-icon-item img {
-        width: 75px;
-    }
-    .advantages-icon-title {
-        text-align: left;
-        font-size: 14px;
-    }
-    .flex-follow-block .shares-cart-block-text {
-        width: 68%;
-    }
-    .flower-left-absolute img, .flower-right-absolute img {
-        height: 200px;
-    }
-    .flex-follow-block .shares-cart-block-text h3 {
-        margin-bottom: 10px;
-    }
-    .follow-block-flex {
-        z-index: 1;
-        width: 110%;
-    }
-    .follow-block-flex input {
-        width: 105%;
-    }
-    .advantages-icon-flex {
-        margin-top: 20px;
-    }
-    .flex-follow-block {
-        padding: 26px 0;
-    }
-    .flex-follow-block {
-        margin-bottom: 25px;
-    }
-    .main-blog-flex {
-        padding: 0 25px;
-    }
-    .blog-main-item {
-        width: 48%;
-    }
-    .main-blog-item-title a {
-        font-size: 11.4px;
-    }
-    .main-blog-item-date {
-        margin-bottom: 0px;
-        font-size: 13px;
-    }
-    .main-blog-flex {
-        margin-bottom: 27px;
     }
     .flex-instagram {
         padding: 0 26px;
@@ -918,9 +770,6 @@ button.close {
     }
     .footer-grey {
         margin-top: 28px;
-    }
-    .min-footer-brand {
-        margin-bottom: 18px;
     }
     .footer-flex-item-link-title a {
         font-weight: bold;
@@ -980,23 +829,7 @@ button.close {
     #burger-content {
         padding: 13px 8px;
     }
-    .modal-city-block {
-        column-count: 2;
-    }
-    .modal-inputs {
-        flex-direction: column;
-    }
-    .modal-inputs input {
-        margin-right: 0;
-        margin-bottom: 15px;
-    }
-    .search-line-input.show {
-        z-index: 11;
-    }
-    .main-page-search {
-        padding: 15px;
-    }
-    .relative-content button {
-        top: 20px;
+    .footer-flex-block {
+        flex-wrap: wrap;
     }
 }
