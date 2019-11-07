@@ -585,6 +585,9 @@ button.close {
 .it-tehnology-text a {
     text-decoration: underline;
 }
+.content-container {
+    margin-top: 40px;
+}
 @media (max-width: 991px) {
     .navbar-toggle .icon-bar {
         width: 30px;
