@@ -242,6 +242,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: 77px;
+    flex-wrap: wrap;
 }
 .category-links-text {
     width: 130px;
@@ -252,7 +253,7 @@ nav ul {
     color: #ff6d0a;
 }
 .category-links-item {
-    width: 24.5%;
+    width: 49%;
     position: relative;
     overflow: hidden;
 }
@@ -281,9 +282,10 @@ nav ul {
     transform: scale(1.1);
 }
 .category-item-block {
-    width: 24.5%;
+    width: 49%;
     position: relative;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .category-item-block:last-child {
     margin-right: 0;
