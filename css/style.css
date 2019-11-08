@@ -619,6 +619,9 @@ button.close {
 .route-page-info a:hover {
     text-decoration: underline;
 }
+.galery-item-grow {
+    flex-grow: 1;
+}
 @media (max-width: 991px) {
     .navbar-toggle .icon-bar {
         width: 30px;
