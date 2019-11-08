@@ -99,6 +99,7 @@ nav ul {
 .topmenu > li > a:hover {
     background-color: #ededed;
     text-decoration: none;
+    color: #ff6d0a;
 }
 .topmenu > li:hover {
     background-color: #ededed;
@@ -610,6 +611,13 @@ button.close {
 }
 .route-page-info h2 {
     margin-bottom: 20px;
+}
+.route-page-info a {
+    font-weight: bold;
+    color: #ff6d0a;
+}
+.route-page-info a:hover {
+    text-decoration: underline;
 }
 @media (max-width: 991px) {
     .navbar-toggle .icon-bar {
