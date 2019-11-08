@@ -891,6 +891,9 @@ button.close {
         width: 48%;
         margin-top: 8px;
     }
+    .galery-item {
+        width: 32.5%;
+    }
 }
 @media(max-width: 500px) {
     .category-links-item {
@@ -917,5 +920,8 @@ button.close {
     }
     .instagram-column {
         margin-left: 5px;
+    }
+    .galery-item {
+        width: 49.5%;
     }
 }
