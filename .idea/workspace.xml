@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4f6454d-5316-41ca-8ed6-c0fc826b4cb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bananamama.html" beforeDir="false" afterPath="$PROJECT_DIR$/bananamama.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routs.html" beforeDir="false" afterPath="$PROJECT_DIR$/routs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
-    </list>
+    <list default="true" id="c4f6454d-5316-41ca-8ed6-c0fc826b4cb8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,12 +205,12 @@
       <workItem from="1573105888559" duration="5069000" />
       <workItem from="1573129824868" duration="3013000" />
       <workItem from="1573193044932" duration="12986000" />
-      <workItem from="1573451580211" duration="6005000" />
+      <workItem from="1573451580211" duration="6613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56224000" />
+    <option name="totallyTimeSpent" value="56832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,9 +223,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="92" y="146" width="1371" height="908" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27942294" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27942294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -243,7 +237,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32860824" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32860824" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
