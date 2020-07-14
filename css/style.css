@@ -367,6 +367,7 @@ nav ul {
 .flex-instagram {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .masonry-instagram {
     display: flex;
@@ -388,7 +389,7 @@ nav ul {
 }
 .footer-grey {
     background-color: #fafafa;
-    margin-top: 135px;
+    margin-top: 90px;
 }
 .footer-flex-item-link-title {
     font-weight: bold;
@@ -440,7 +441,7 @@ nav ul {
     flex-wrap: wrap;
 }
 .footer-social-flex a {
-    width: 26%;
+    width: 37px;
     font-size: 22px;
 }
 .footer-social-flex a:hover {
